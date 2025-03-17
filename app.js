@@ -4,15 +4,15 @@ document.querySelector('.js-home').addEventListener('click', () => {
 })
 document.querySelector(".js-about").addEventListener("click", () => {
   const scrollElm = document.scrollingElement;
-  scrollElm.scrollTop = 300;
+  scrollElm.scrollTop = 800;
 });
 document.querySelector(".js-project").addEventListener("click", () => {
   const scrollElm = document.scrollingElement;
-  scrollElm.scrollTop = 600;
+  scrollElm.scrollTop = 1600;
 });
 document.querySelector(".js-contact").addEventListener("click", () => {
   const scrollElm = document.scrollingElement;
-  scrollElm.scrollTop = 1200;
+  scrollElm.scrollTop = 2400;
 });
 document.querySelector(".js-arrow-up").addEventListener("click", () => {
   const scrollElm = document.scrollingElement;
